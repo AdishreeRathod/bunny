@@ -87,7 +87,7 @@ if(fruit!=null){
     bunny.changeAnimation("eating");
   }
 
-  if(collide(ground.body,bunny)==true){
+  if(collide(fruit,ground.body)==true){
     bunny.changeAnimation("crying");
   }
 
